@@ -1,5 +1,5 @@
 # Intro-to-Linux-Shell-Scripting  
-A shell script is simply a plain text file that contains a series of commands and shell statements when a shell script is executed it in turn executes the commands listed in the script that starts at the very top and executes the commands on each line one line at a time until the end of the file. Executing a shell script produces the exact same result as you typing in each line directly into the terminal. This means any work you can do on the command line can be automated by a shell script.    
+A shell script is simply a plain text file that contains a series of commands and shell statements when a shell script is executed ,it, in turn ,executes the commands listed in the script that starts at the very top and executes the commands on each line one line at a time until the end of the file. Executing a shell script produces the exact same result as you typing in each line directly into the terminal. This means any work you can do on the command line can be automated by a shell script.    
 ## Text-Editor   
 We need a text editor to edit and execute the shell script. If you have already installed your favorite text editor good to go! if not, then either you can install gvim, gedit or any other text editor you want. Else, you can start with `vim` or `nano` text editor. some distro comes with nano inbuilt while in some machine, we need to install it.
 To install the nano text editor, execute the following command in the terminal.    
@@ -19,7 +19,7 @@ In this repo, we will be using `nano` text editor to write and execute our shell
 `-` denotes that it's a text file.       
 `d`  denotes that it's a directory.    
 `r` read permission    
-`w` write permission      
+`w` write permission            
    
 - So, we can see that our file `day1.sh` doesn't have execute permission. To make the file executable give,     
 ```
